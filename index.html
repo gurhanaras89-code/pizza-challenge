@@ -1,26 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./workintech.svg" />
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teknolojik Yemekler</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Quattrocento:wght@400;700&family=Satisfy&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Workintech + 🍕</title>
-  </head>
+</head>
+<body>
 
-  <body>
-    <div id="app">
-      <div>
-        <a href="https://github.com/Workintech/fsweb-s5-bonus-challenge-html-pizza" target="_blank">
-          <img src="./workintech.svg" class="logo" alt="Workintech logo">
-        </a>
-        <h1>Hello Coder!</h1>
-        <p class="read-the-docs">
-          Click on the Workintech logo to see the Readme of the project
-        </p>
-      </div>
-    </div>
-  </body>
+    <header class="main-header">
+        <div class="container">
+            <img src="#" alt="Teknolojik Yemekler Logo" class="main-logo">
+            <div class="hero-content">
+                <p class="satisfy-text">fırsatı kaçırma</p>
+                <h1>KOD ACIKTIRIR <br> PİZZA, DOYURUR</h1>
+                <button class="hero-btn">ACIKTIM</button>
+            </div>
+        </div>
+    </header>
 
+    <nav class="category-nav">
+        <div class="container">
+            <div class="nav-item"><img src="#" alt=""> YENİ! Kore</div>
+            <div class="nav-item active"><img src="#" alt=""> Pizza</div>
+            <div class="nav-item"><img src="#" alt=""> Burger</div>
+            <div class="nav-item"><img src="#" alt=""> Kızartmalar</div>
+            <div class="nav-item"><img src="#" alt=""> Fast Food</div>
+            <div class="nav-item"><img src="#" alt=""> Gazlı İçecekler</div>
+        </div>
+    </nav>
+
+    <main class="container content-area">
+        <section class="campaign-cards">
+            <div class="card large-card red-card">
+                <h2>Özel <br> Lezzetus</h2>
+                <p>Kung Pao Tavuklu Pizza</p>
+                <button class="order-link">SİPARİŞ VER</button>
+            </div>
+            <div class="side-cards">
+                <div class="card medium-card black-card">
+                    <h3>Hackathlon <br> Burger Menü</h3>
+                    <button class="order-link">SİPARİŞ VER</button>
+                </div>
+                <div class="card medium-card white-card">
+                    <h3><span>Çoooook</span> hızlı <br> npm gibi kurye</h3>
+                    <button class="order-link">SİPARİŞ VER</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="menu-section">
+        <div class="menu-header">
+            <p class="satisfy-text">en çok paketlenen menüler</p>
+            <h2>Acıktıran Kodlara Doyuran Lezzetler</h2>
+        </div>
+        
+        <nav class="menu-tabs">
+            <button class="tab-btn"><img src="#" alt=""> Ramen</button>
+            <button class="tab-btn active"><img src="#" alt=""> Pizza</button>
+            <button class="tab-btn"><img src="#" alt=""> Burger</button>
+            <button class="tab-btn"><img src="#" alt=""> French fries</button>
+            <button class="tab-btn"><img src="#" alt=""> Fast food</button>
+            <button class="tab-btn"><img src="#" alt=""> Soft drinks</button>
+        </nav>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="#" alt="Terminal Pizza">
+                <h4>Terminal Pizza</h4>
+                <div class="product-info">
+                    <span>4.9</span>
+                    <span>(200)</span>
+                    <span class="price">60₺</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="#" alt="Position Absolute Pizza">
+                <h4>Position Absolute Pizza</h4>
+                <div class="product-info">
+                    <span>4.9</span>
+                    <span>(928)</span>
+                    <span class="price">85₺</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="#" alt="useEffect Tavuklu Burger">
+                <h4>useEffect Tavuklu Burger</h4>
+                <div class="product-info">
+                    <span>4.9</span>
+                    <span>(462)</span>
+                    <span class="price">75₺</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Teknolojik <br> Yemekler</h3>
+                <p><img src="#" alt=""> 341 Londonderry Road, Istanbul Türkiye</p>
+                <p><img src="#" alt=""> aciktim@teknolojik-yemekler.com</p>
+                <p><img src="#" alt=""> +90 216 123 45 67</p>
+            </div>
+            <div class="footer-nav">
+                <h4>Sıcak Menüler</h4>
+                <ul>
+                    <li>Terminal Pizza</li>
+                    <li>5 Kişilik Hackathlon Pizza</li>
+                    <li>useEffect Tavuklu Burger</li>
+                    <li>Beyaz Console Frosty</li>
+                    <li>Testler Geçti Mutlu Burger</li>
+                    <li>Position Absolute Pizza</li>
+                </ul>
+            </div>
+            <div class="footer-insta">
+                <h4>Instagram</h4>
+                <div class="insta-grid">
+                    <img src="#" alt="">
+                    <img src="#" alt="">
+                    <img src="#" alt="">
+                    <img src="#" alt="">
+                    <img src="#" alt="">
+                    <img src="#" alt="">
+                </div>
+            </div>
+        </div>
+        <hr class="footer-divider">
+        <div class="container footer-bottom">
+            <p>© 2023 Teknolojik Yemekler.</p>
+            <div class="social-icons">
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
 </html>
